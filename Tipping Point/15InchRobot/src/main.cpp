@@ -1,5 +1,5 @@
 #include "main.h"
-
+using namespace okapi; // namespace for quality-of-life improvements
 /**
  * A callback function for LLEMU's center button.
  *
