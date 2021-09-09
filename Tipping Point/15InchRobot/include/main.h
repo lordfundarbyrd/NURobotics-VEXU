@@ -50,9 +50,9 @@
  * concurrently! The okapi namespace will export all symbols inside the pros
  * namespace.
  */
-// using namespace pros;
-// using namespace pros::literals;
- using namespace okapi;
+ using namespace pros;
+ using namespace pros::literals;
+// using namespace okapi;
 
 /**
  * Prototypes for the competition control tasks are redefined here to ensure
@@ -72,9 +72,9 @@ void opcontrol(void);
 #endif
 
 #ifdef __cplusplus
-/**
- * You can add C++-only headers here
- */
+#include "subsystemHeaders/drive.hpp"
+#include "subsystemHeaders/globals.hpp"
+#include "subsystemHeaders/intake.hpp"
 //#include <iostream>
 #endif
 
