@@ -1,7 +1,7 @@
 #include "main.h"
 
-extern pros::Motor lift;
-extern pros::Motor angler;
+//extern pros::Motor lift;
+//extern pros::Motor angler;
 extern pros::Motor intakeLeft;
 extern pros::Motor intakeRight;
 extern pros::Motor driveLeftBack;

@@ -8,12 +8,10 @@ void setDrive(int left, int right) {
 }
 
 void setDriveMotors() {
-    int leftJoystick = controller.get_analog(pros::E_CONTROLLER_ANALOG_LEFT_Y);
-    int rightJoystick = controller.get_analog(pros::E_CONTROLLER_ANALOG_RIGHT_Y);
-    if (abs(leftJoystick) < 10)
-        leftJoystick = 0;
-    if (abs(rightJoystick) < 10)
-        rightJoystick = 0;
-    setDrive(leftJoystick, rightJoystick);
+    int power = controller.get_analog(pros::E_CONTROLLER_ANALOG_LEFT_Y);
+    int turn = controller.get_analog(pros::E_CONTROLLER_ANALOG_RIGHT_X);
+    int left = power + turn;
+    int right = power - turn;
+    setDrive(left, right);
 }
 
