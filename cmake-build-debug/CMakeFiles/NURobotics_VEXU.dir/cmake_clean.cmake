@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/include/subsystemHeaders/drive.cpp.o"
-  "CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/globals.cpp.o"
   "CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/main.cpp.o"
+  "CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/drive.cpp.o"
+  "CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/globals.cpp.o"
+  "CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.o"
   "NURobotics_VEXU"
   "NURobotics_VEXU.pdb"
 )
