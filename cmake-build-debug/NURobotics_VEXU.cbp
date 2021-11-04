@@ -896,10 +896,7 @@
 		<Unit filename="/Users/delracman/Documents/GitHub/NURobotics-VEXU/Tipping Point/15InchRobot/src/subsystemFiles/globals.cpp">
 			<Option target="NURobotics_VEXU"/>
 		</Unit>
-		<Unit filename="/Users/delracman/Documents/GitHub/NURobotics-VEXU/Tipping Point/15InchRobot/src/subsystemFiles/intake.cpp">
-			<Option target="NURobotics_VEXU"/>
-		</Unit>
-		<Unit filename="/Users/delracman/Documents/GitHub/NURobotics-VEXU/Tipping Point/15InchRobot/src/subsystemFiles/intake.h">
+		<Unit filename="/Users/delracman/Documents/GitHub/NURobotics-VEXU/Tipping Point/15InchRobot/src/subsystemFiles/lift.cpp">
 			<Option target="NURobotics_VEXU"/>
 		</Unit>
 		<Unit filename="/Users/delracman/Documents/GitHub/NURobotics-VEXU/CMakeLists.txt">

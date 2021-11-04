@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/delracman/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/212.5080.54/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/delracman/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/delracman/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/212.5080.54/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
+RM = "/Users/delracman/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/delracman/Documents/GitHub/NURobotics-VEXU/cmake-build
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/delracman/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/212.5080.54/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/delracman/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,7 +78,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Users/delracman/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/212.5080.54/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/delracman/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -201,29 +201,29 @@ Tipping_Point/15InchRobot/src/subsystemFiles/globals.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NURobotics_VEXU.dir/build.make CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/globals.cpp.s
 .PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/globals.cpp.s
 
-Tipping_Point/15InchRobot/src/subsystemFiles/intake.o: Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.o
-.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/intake.o
+Tipping_Point/15InchRobot/src/subsystemFiles/lift.o: Tipping_Point/15InchRobot/src/subsystemFiles/lift.cpp.o
+.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/lift.o
 
 # target to build an object file
-Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NURobotics_VEXU.dir/build.make CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.o
-.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.o
+Tipping_Point/15InchRobot/src/subsystemFiles/lift.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NURobotics_VEXU.dir/build.make CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/lift.cpp.o
+.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/lift.cpp.o
 
-Tipping_Point/15InchRobot/src/subsystemFiles/intake.i: Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.i
-.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/intake.i
+Tipping_Point/15InchRobot/src/subsystemFiles/lift.i: Tipping_Point/15InchRobot/src/subsystemFiles/lift.cpp.i
+.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/lift.i
 
 # target to preprocess a source file
-Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NURobotics_VEXU.dir/build.make CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.i
-.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.i
+Tipping_Point/15InchRobot/src/subsystemFiles/lift.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NURobotics_VEXU.dir/build.make CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/lift.cpp.i
+.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/lift.cpp.i
 
-Tipping_Point/15InchRobot/src/subsystemFiles/intake.s: Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.s
-.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/intake.s
+Tipping_Point/15InchRobot/src/subsystemFiles/lift.s: Tipping_Point/15InchRobot/src/subsystemFiles/lift.cpp.s
+.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/lift.s
 
 # target to generate assembly for a file
-Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NURobotics_VEXU.dir/build.make CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.s
-.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.s
+Tipping_Point/15InchRobot/src/subsystemFiles/lift.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NURobotics_VEXU.dir/build.make CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/lift.cpp.s
+.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/lift.cpp.s
 
 # Help Target
 help:
@@ -243,9 +243,9 @@ help:
 	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/globals.o"
 	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/globals.i"
 	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/globals.s"
-	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/intake.o"
-	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/intake.i"
-	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/intake.s"
+	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/lift.o"
+	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/lift.i"
+	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/lift.s"
 .PHONY : help
 
 

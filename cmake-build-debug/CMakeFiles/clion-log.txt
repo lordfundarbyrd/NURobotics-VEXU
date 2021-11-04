@@ -1,4 +1,4 @@
-"/Users/delracman/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/212.5080.54/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/delracman/Documents/GitHub/NURobotics-VEXU
+"/Users/delracman/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/delracman/Documents/GitHub/NURobotics-VEXU
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/delracman/Documents/GitHub/NURobotics-VEXU/cmake-build-debug
