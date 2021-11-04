@@ -76,8 +76,14 @@ void autonomous() {}
  * task, not resume it from where it left off.
  */
 void opcontrol() {
-
     while (true) {
+        driveLeftFront.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+        driveRightFront.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+        driveLeftBackFront.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+        driveLeftBackBack.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+        driveRightBackFront.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+        driveRightBackBack.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+        intake.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
         setDriveMotors();
         setIntakeMotors();
         pros::delay(10);
