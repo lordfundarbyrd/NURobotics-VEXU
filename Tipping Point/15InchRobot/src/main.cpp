@@ -86,6 +86,7 @@ void opcontrol() {
         intake.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
         setDriveMotors();
         setIntakeMotors();
+        setLiftMotors();
         pros::delay(10);
     }
 }

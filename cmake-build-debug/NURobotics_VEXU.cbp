@@ -887,13 +887,28 @@
 		<Unit filename="/Users/delracman/Documents/GitHub/NURobotics-VEXU/Tipping Point/15InchRobot/include/pros/vision.hpp">
 			<Option target="NURobotics_VEXU"/>
 		</Unit>
+		<Unit filename="/Users/delracman/Documents/GitHub/NURobotics-VEXU/Tipping Point/15InchRobot/include/subsystemHeaders/claw.hpp">
+			<Option target="NURobotics_VEXU"/>
+		</Unit>
+		<Unit filename="/Users/delracman/Documents/GitHub/NURobotics-VEXU/Tipping Point/15InchRobot/include/subsystemHeaders/lift.hpp">
+			<Option target="NURobotics_VEXU"/>
+		</Unit>
 		<Unit filename="/Users/delracman/Documents/GitHub/NURobotics-VEXU/Tipping Point/15InchRobot/src/main.cpp">
+			<Option target="NURobotics_VEXU"/>
+		</Unit>
+		<Unit filename="/Users/delracman/Documents/GitHub/NURobotics-VEXU/Tipping Point/15InchRobot/src/subsystemFiles/claw.cpp">
+			<Option target="NURobotics_VEXU"/>
+		</Unit>
+		<Unit filename="/Users/delracman/Documents/GitHub/NURobotics-VEXU/Tipping Point/15InchRobot/src/subsystemFiles/claw.hpp">
 			<Option target="NURobotics_VEXU"/>
 		</Unit>
 		<Unit filename="/Users/delracman/Documents/GitHub/NURobotics-VEXU/Tipping Point/15InchRobot/src/subsystemFiles/drive.cpp">
 			<Option target="NURobotics_VEXU"/>
 		</Unit>
 		<Unit filename="/Users/delracman/Documents/GitHub/NURobotics-VEXU/Tipping Point/15InchRobot/src/subsystemFiles/globals.cpp">
+			<Option target="NURobotics_VEXU"/>
+		</Unit>
+		<Unit filename="/Users/delracman/Documents/GitHub/NURobotics-VEXU/Tipping Point/15InchRobot/src/subsystemFiles/intake.cpp">
 			<Option target="NURobotics_VEXU"/>
 		</Unit>
 		<Unit filename="/Users/delracman/Documents/GitHub/NURobotics-VEXU/Tipping Point/15InchRobot/src/subsystemFiles/lift.cpp">

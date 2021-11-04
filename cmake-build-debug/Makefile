@@ -153,6 +153,30 @@ Tipping_Point/15InchRobot/src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NURobotics_VEXU.dir/build.make CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/main.cpp.s
 .PHONY : Tipping_Point/15InchRobot/src/main.cpp.s
 
+Tipping_Point/15InchRobot/src/subsystemFiles/claw.o: Tipping_Point/15InchRobot/src/subsystemFiles/claw.cpp.o
+.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/claw.o
+
+# target to build an object file
+Tipping_Point/15InchRobot/src/subsystemFiles/claw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NURobotics_VEXU.dir/build.make CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/claw.cpp.o
+.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/claw.cpp.o
+
+Tipping_Point/15InchRobot/src/subsystemFiles/claw.i: Tipping_Point/15InchRobot/src/subsystemFiles/claw.cpp.i
+.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/claw.i
+
+# target to preprocess a source file
+Tipping_Point/15InchRobot/src/subsystemFiles/claw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NURobotics_VEXU.dir/build.make CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/claw.cpp.i
+.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/claw.cpp.i
+
+Tipping_Point/15InchRobot/src/subsystemFiles/claw.s: Tipping_Point/15InchRobot/src/subsystemFiles/claw.cpp.s
+.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/claw.s
+
+# target to generate assembly for a file
+Tipping_Point/15InchRobot/src/subsystemFiles/claw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NURobotics_VEXU.dir/build.make CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/claw.cpp.s
+.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/claw.cpp.s
+
 Tipping_Point/15InchRobot/src/subsystemFiles/drive.o: Tipping_Point/15InchRobot/src/subsystemFiles/drive.cpp.o
 .PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/drive.o
 
@@ -201,6 +225,30 @@ Tipping_Point/15InchRobot/src/subsystemFiles/globals.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NURobotics_VEXU.dir/build.make CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/globals.cpp.s
 .PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/globals.cpp.s
 
+Tipping_Point/15InchRobot/src/subsystemFiles/intake.o: Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.o
+.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/intake.o
+
+# target to build an object file
+Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NURobotics_VEXU.dir/build.make CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.o
+.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.o
+
+Tipping_Point/15InchRobot/src/subsystemFiles/intake.i: Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.i
+.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/intake.i
+
+# target to preprocess a source file
+Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NURobotics_VEXU.dir/build.make CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.i
+.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.i
+
+Tipping_Point/15InchRobot/src/subsystemFiles/intake.s: Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.s
+.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/intake.s
+
+# target to generate assembly for a file
+Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NURobotics_VEXU.dir/build.make CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.s
+.PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.s
+
 Tipping_Point/15InchRobot/src/subsystemFiles/lift.o: Tipping_Point/15InchRobot/src/subsystemFiles/lift.cpp.o
 .PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/lift.o
 
@@ -237,12 +285,18 @@ help:
 	@echo "... Tipping_Point/15InchRobot/src/main.o"
 	@echo "... Tipping_Point/15InchRobot/src/main.i"
 	@echo "... Tipping_Point/15InchRobot/src/main.s"
+	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/claw.o"
+	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/claw.i"
+	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/claw.s"
 	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/drive.o"
 	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/drive.i"
 	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/drive.s"
 	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/globals.o"
 	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/globals.i"
 	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/globals.s"
+	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/intake.o"
+	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/intake.i"
+	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/intake.s"
 	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/lift.o"
 	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/lift.i"
 	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/lift.s"
