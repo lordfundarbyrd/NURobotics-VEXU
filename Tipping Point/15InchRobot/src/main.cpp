@@ -1,4 +1,5 @@
 #include "main.h"
+#include "selection.h"
 
 using namespace okapi; // namespace for quality-of-life improvements
 
@@ -29,6 +30,7 @@ void initialize() {
     pros::lcd::set_text(1, "Hello PROS User!");
 
     pros::lcd::register_btn1_cb(on_center_button);
+    //selector::init();
 }
 
 /**
@@ -47,7 +49,9 @@ void disabled() {}
  * This task will exit when the robot is enabled and autonomous or opcontrol
  * starts.
  */
-void competition_initialize() {}
+void competition_initialize() {
+  selector::init();
+}
 
 /**
  * Runs the user autonomous code. This function will be started in its own task
@@ -60,7 +64,17 @@ void competition_initialize() {}
  * will be stopped. Re-enabling the robot will restart the task, not re-start it
  * from where it left off.
  */
-void autonomous() {}
+void autonomous() {
+  /**
+  selector::auton == 1 : Red Front
+  selector::auton == 2 : Red Back
+  selector::auton == 3 : Do Nothing
+  selector::auton == -1 : Blue Front
+  selector::auton == -2 : Blue Back
+  selector::auton == -3 : Do Nothing
+  selector::auton == 0 : Skills
+  */
+}
 
 /**
  * Runs the operator control code. This function will be started in its own task
