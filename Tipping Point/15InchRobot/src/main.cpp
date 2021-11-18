@@ -1,5 +1,6 @@
 #include "main.h"
 #include "selection.h"
+#include "pros/apix.h"
 
 using namespace okapi; // namespace for quality-of-life improvements
 
@@ -30,7 +31,7 @@ void initialize() {
     pros::lcd::set_text(1, "Hello PROS User!");
 
     pros::lcd::register_btn1_cb(on_center_button);
-    //selector::init();
+    selector::init();
 }
 
 /**
