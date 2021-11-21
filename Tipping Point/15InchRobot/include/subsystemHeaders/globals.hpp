@@ -9,6 +9,7 @@ extern pros::Motor driveRightBackFront;
 extern pros::Motor driveRightFront;
 extern pros::Motor liftLeft;
 extern pros::Motor liftRight;
-extern pros::Motor claw;
+extern pros::Motor clawLeft;
+extern pros::Motor clawRight;
 
 extern pros::Controller controller;

@@ -99,9 +99,12 @@ void opcontrol() {
         driveRightBackFront.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
         driveRightBackBack.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
         intake.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+        clawLeft.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+        clawRight.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
         setDriveMotors();
         setIntakeMotors();
         setLiftMotors();
+        setClawMotors();
         pros::delay(10);
     }
 }
