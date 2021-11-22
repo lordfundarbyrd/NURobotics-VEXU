@@ -911,6 +911,12 @@
 		<Unit filename="/Users/delracman/Documents/GitHub/NURobotics-VEXU/Tipping Point/15InchRobot/src/subsystemFiles/lift.cpp">
 			<Option target="NURobotics_VEXU"/>
 		</Unit>
+		<Unit filename="/Users/delracman/Documents/GitHub/NURobotics-VEXU/Tipping Point/24InchRobot/include/subsystemHeaders/flipbars.hpp">
+			<Option target="NURobotics_VEXU"/>
+		</Unit>
+		<Unit filename="/Users/delracman/Documents/GitHub/NURobotics-VEXU/Tipping Point/24InchRobot/src/subsystemFiles/flipbars.cpp">
+			<Option target="NURobotics_VEXU"/>
+		</Unit>
 		<Unit filename="/Users/delracman/Documents/GitHub/NURobotics-VEXU/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

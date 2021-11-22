@@ -273,6 +273,30 @@ Tipping_Point/15InchRobot/src/subsystemFiles/lift.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NURobotics_VEXU.dir/build.make CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/lift.cpp.s
 .PHONY : Tipping_Point/15InchRobot/src/subsystemFiles/lift.cpp.s
 
+Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.o: Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.cpp.o
+.PHONY : Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.o
+
+# target to build an object file
+Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NURobotics_VEXU.dir/build.make CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.cpp.o
+.PHONY : Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.cpp.o
+
+Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.i: Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.cpp.i
+.PHONY : Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.i
+
+# target to preprocess a source file
+Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NURobotics_VEXU.dir/build.make CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.cpp.i
+.PHONY : Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.cpp.i
+
+Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.s: Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.cpp.s
+.PHONY : Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.s
+
+# target to generate assembly for a file
+Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NURobotics_VEXU.dir/build.make CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.cpp.s
+.PHONY : Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -300,6 +324,9 @@ help:
 	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/lift.o"
 	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/lift.i"
 	@echo "... Tipping_Point/15InchRobot/src/subsystemFiles/lift.s"
+	@echo "... Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.o"
+	@echo "... Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.i"
+	@echo "... Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.s"
 .PHONY : help
 
 

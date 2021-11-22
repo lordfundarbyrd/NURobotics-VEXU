@@ -77,6 +77,7 @@ void opcontrol(void);
 #include "subsystemHeaders/intake.hpp"
 #include "subsystemHeaders/lift.hpp"
 #include "subsystemHeaders/claw.hpp"
+#include "subsystemHeaders/flipbars.hpp"
 //#include <iostream>
 #endif
 

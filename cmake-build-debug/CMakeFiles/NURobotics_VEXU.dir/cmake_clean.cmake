@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/globals.cpp.o"
   "CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.o"
   "CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/lift.cpp.o"
+  "CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.cpp.o"
   "NURobotics_VEXU"
   "NURobotics_VEXU.pdb"
 )

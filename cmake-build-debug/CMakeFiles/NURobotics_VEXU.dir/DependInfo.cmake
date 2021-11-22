@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/delracman/Documents/GitHub/NURobotics-VEXU/Tipping Point/15InchRobot/src/subsystemFiles/globals.cpp" "/Users/delracman/Documents/GitHub/NURobotics-VEXU/cmake-build-debug/CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/globals.cpp.o"
   "/Users/delracman/Documents/GitHub/NURobotics-VEXU/Tipping Point/15InchRobot/src/subsystemFiles/intake.cpp" "/Users/delracman/Documents/GitHub/NURobotics-VEXU/cmake-build-debug/CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/intake.cpp.o"
   "/Users/delracman/Documents/GitHub/NURobotics-VEXU/Tipping Point/15InchRobot/src/subsystemFiles/lift.cpp" "/Users/delracman/Documents/GitHub/NURobotics-VEXU/cmake-build-debug/CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/15InchRobot/src/subsystemFiles/lift.cpp.o"
+  "/Users/delracman/Documents/GitHub/NURobotics-VEXU/Tipping Point/24InchRobot/src/subsystemFiles/flipbars.cpp" "/Users/delracman/Documents/GitHub/NURobotics-VEXU/cmake-build-debug/CMakeFiles/NURobotics_VEXU.dir/Tipping_Point/24InchRobot/src/subsystemFiles/flipbars.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
