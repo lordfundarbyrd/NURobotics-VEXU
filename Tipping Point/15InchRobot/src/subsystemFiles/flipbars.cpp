@@ -1,4 +1,3 @@
-#include <subsystemHeaders/globals.hpp>
 #include "subsystemHeaders/flipbars.hpp"
 
 void setClaw(int power) {
