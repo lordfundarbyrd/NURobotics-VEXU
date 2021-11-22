@@ -15,4 +15,4 @@ pros::Motor claw(8, pros::E_MOTOR_GEARSET_18, true, pros::E_MOTOR_ENCODER_COUNTS
 
 pros::Controller controller(pros::E_CONTROLLER_MASTER);
 
-const auto WHEEL_DIAMETER = 4_in;
+//const auto WHEEL_DIAMETER = 4_in;
