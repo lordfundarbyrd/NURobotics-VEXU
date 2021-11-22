@@ -11,6 +11,5 @@ extern pros::Motor liftLeft;
 extern pros::Motor liftRight;
 extern pros::Motor flipLeft;
 extern pros::Motor flipRight;
-extern pros::Motor claw;
 
 extern pros::Controller controller;

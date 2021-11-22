@@ -1,5 +1,5 @@
 #include "main.h"
-#include "selection.h"
+#include "autoSelect/selection.h"
 #include "pros/apix.h"
 
 using namespace okapi; // namespace for quality-of-life improvements
@@ -99,12 +99,12 @@ void opcontrol() {
         driveRightBackFront.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
         driveRightBackBack.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
         intake.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
-        clawLeft.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
-        clawRight.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+        flipLeft.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+        flipRight.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
         setDriveMotors();
         setIntakeMotors();
         setLiftMotors();
-        setClawMotors();
+        setFlipBarMotors();
         pros::delay(10);
     }
 }
