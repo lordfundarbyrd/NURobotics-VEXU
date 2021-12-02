@@ -289,4 +289,4 @@ add_executable(NURobotics_VEXU
         "Tipping Point/15InchRobot/include/pros/vision.hpp"
         "Tipping Point/15InchRobot/include/api.h"
         "Tipping Point/15InchRobot/include/main.h"
-        "Tipping Point/15InchRobot/src/main.cpp" "Tipping Point/15InchRobot/src/subsystemFiles/globals.cpp" "Tipping Point/15InchRobot/src/subsystemFiles/drive.cpp" "Tipping Point/15InchRobot/src/subsystemFiles/intake.cpp" "Tipping Point/15InchRobot/src/subsystemFiles/lift.cpp" "Tipping Point/15InchRobot/include/subsystemHeaders/lift.hpp" "Tipping Point/15InchRobot/include/subsystemHeaders/claw.hpp" "Tipping Point/15InchRobot/src/subsystemFiles/claw.cpp" "Tipping Point/24InchRobot/include/subsystemHeaders/flipbars.hpp" "Tipping Point/24InchRobot/src/subsystemFiles/flipbars.cpp")
+        "Tipping Point/15InchRobot/src/main.cpp" "Tipping Point/15InchRobot/src/subsystemFiles/globals.cpp" "Tipping Point/15InchRobot/src/subsystemFiles/drive.cpp" "Tipping Point/15InchRobot/src/subsystemFiles/goalLift.cpp" "Tipping Point/24InchRobot/include/subsystemHeaders/flipbars.hpp" "Tipping Point/24InchRobot/src/subsystemFiles/flipbars.cpp")

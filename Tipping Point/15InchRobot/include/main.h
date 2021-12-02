@@ -74,9 +74,8 @@ void opcontrol(void);
 #ifdef __cplusplus
 #include "subsystemHeaders/drive.hpp"
 #include "subsystemHeaders/globals.hpp"
-#include "subsystemHeaders/intake.hpp"
+#include "subsystemHeaders/goalLift.hpp"
 #include "subsystemHeaders/lift.hpp"
-#include "subsystemHeaders/flipbars.hpp"
 //#include <iostream>
 #endif
 

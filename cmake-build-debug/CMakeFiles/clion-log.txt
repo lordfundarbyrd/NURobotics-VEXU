@@ -1,4 +1,19 @@
-"/Users/delracman/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/delracman/Documents/GitHub/NURobotics-VEXU
+"/Users/delracman/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/delracman/Documents/GitHub/NURobotics-VEXU
+CMake Warning (dev) at CMakeLists.txt:292:
+  Syntax Warning in cmake code at column 341
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
 -- Configuring done
--- Generating done
--- Build files have been written to: /Users/delracman/Documents/GitHub/NURobotics-VEXU/cmake-build-debug
+CMake Error at CMakeLists.txt:52 (add_executable):
+  Cannot find source file:
+
+    Tipping Point/24InchRobot/include/subsystemHeaders/flipbars.hpp
+
+
+CMake Error at CMakeLists.txt:52 (add_executable):
+  No SOURCES given to target: NURobotics_VEXU
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

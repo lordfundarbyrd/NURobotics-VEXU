@@ -30,8 +30,8 @@ void initialize() {
     pros::lcd::initialize();
     pros::lcd::set_text(1, "Hello PROS User!");
 
-    pros::lcd::register_btn1_cb(on_center_button);
-    selector::init();
+    //pros::lcd::register_btn1_cb(on_center_button);
+    //selector::init();
 }
 
 /**
@@ -51,7 +51,7 @@ void disabled() {}
  * starts.
  */
 void competition_initialize() {
-  selector::init();
+  //selector::init();
 }
 
 /**
@@ -98,13 +98,12 @@ void opcontrol() {
         driveLeftBackBack.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
         driveRightBackFront.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
         driveRightBackBack.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
-        intake.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
-        flipLeft.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
-        flipRight.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+        goalLift.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+        leftLift.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+        rightLift.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
         setDriveMotors();
-        setIntakeMotors();
+        setGrabLiftMotors();
         setLiftMotors();
-        setFlipBarMotors();
         pros::delay(10);
     }
 }
