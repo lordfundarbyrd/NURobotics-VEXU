@@ -27,6 +27,15 @@ void on_center_button() {
  * to keep execution time for this mode under a few seconds.
  */
 void initialize() {
+    driveLeftFront.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+    driveRightFront.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+    driveLeftBackFront.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+    driveLeftBackBack.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+    driveRightBackFront.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+    driveRightBackBack.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+    goalLift.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+    leftLift.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+    rightLift.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
     pros::lcd::initialize();
     pros::lcd::set_text(1, "Hello PROS User!");
 
@@ -92,15 +101,6 @@ void autonomous() {
  */
 void opcontrol() {
     while (true) {
-        driveLeftFront.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
-        driveRightFront.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
-        driveLeftBackFront.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
-        driveLeftBackBack.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
-        driveRightBackFront.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
-        driveRightBackBack.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
-        goalLift.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
-        leftLift.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
-        rightLift.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
         setDriveMotors();
         setGoalLiftMotors();
         setLiftMotors();
