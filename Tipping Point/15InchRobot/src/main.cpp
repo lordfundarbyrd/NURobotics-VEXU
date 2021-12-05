@@ -102,7 +102,7 @@ void opcontrol() {
         leftLift.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
         rightLift.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
         setDriveMotors();
-        setGrabLiftMotors();
+        setGoalLiftMotors();
         setLiftMotors();
         pros::delay(10);
     }
