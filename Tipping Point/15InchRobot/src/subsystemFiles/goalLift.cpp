@@ -1,4 +1,5 @@
 #include "subsystemHeaders/goalLift.hpp"
+#include "main.h"
 
 void setGoalLift(int power) {
     goalLift = power;

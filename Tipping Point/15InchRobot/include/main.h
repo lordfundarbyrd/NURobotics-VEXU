@@ -72,10 +72,10 @@ void opcontrol(void);
 #endif
 
 #ifdef __cplusplus
-#include "subsystemHeaders/drive.hpp"
+//#include "subsystemHeaders/drive.hpp"
 #include "subsystemHeaders/globals.hpp"
 #include "subsystemHeaders/goalLift.hpp"
-#include "subsystemHeaders/lift.hpp"
+//#include "subsystemHeaders/lift.hpp"
 //#include <iostream>
 #endif
 

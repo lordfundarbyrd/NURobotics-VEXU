@@ -1,5 +1,4 @@
 #include "main.h"
-#include "autoSelect/selection.h"
 #include "pros/apix.h"
 
 using namespace okapi; // namespace for quality-of-life improvements
@@ -75,6 +74,7 @@ void competition_initialize() {
  * from where it left off.
  */
 void autonomous() {
+
   /**
   selector::auton == 1 : Red Front
   selector::auton == 2 : Red Back
@@ -101,9 +101,9 @@ void autonomous() {
  */
 void opcontrol() {
     while (true) {
-        setDriveMotors();
+        //setDriveMotors();
         setGoalLiftMotors();
-        setLiftMotors();
+        //setLiftMotors();
         pros::delay(10);
     }
 }

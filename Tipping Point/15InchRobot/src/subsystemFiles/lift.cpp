@@ -1,4 +1,5 @@
 #include "subsystemHeaders/lift.hpp"
+#include "main.h"
 
 void setLift(int power) {
     leftLift = power;
